@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>First Java script exercise</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <!--Added bootstrap for editing buttons, not jQUery added on purpose-->
+</head>
+<body>
+        <div class ="header2-flex">
+            <h2>Challange 1: Age in days (mmaksimowicz)</h2>
+        </div>
+        <div class="flex-box-container-1" id="main-div">
+            <div>
+                <button id="ClickMeBtn" class="btn btn-primary" onclick="startDaysChecking()">Click me</button>
+            </div>
+            <div>
+                <button id="ResetBtn" class="btn btn-warning">Reset</button>
+            </div>
+            
+        </div>
+        <div class="date-pick hidden" id="date-div">
+            <input id="date-input"  type="date"/> <button id="confirm-date" class="btn btn-primary" onclick="checkDays()">OK</button>
+        </div>
+        <div id="result-box" class="flex-box-container-1 hidden">
+
+        </div>
+   
+
+<script src="./Scripts.js"></script>
+</body>
+</html>

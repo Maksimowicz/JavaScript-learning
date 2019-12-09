@@ -1,0 +1,32 @@
+.flex-box-container-1 {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-box-container-1 div{
+    padding: 10px;
+}
+
+.header2-flex{
+    text-align:center;
+    align-items: center;
+}
+
+.hidden{
+    display: none;
+}
+
+.date-pick{
+    align-items:center;
+    text-align: center;
+}
+
+.date-pick input{
+    padding: 5px;
+    border: 2px solid black;
+}
+
+
+
+
