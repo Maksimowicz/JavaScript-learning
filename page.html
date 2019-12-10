@@ -14,18 +14,21 @@
         </div>
         <div class="flex-box-container-1" id="main-div">
             <div>
-                <button id="ClickMeBtn" class="btn btn-primary" onclick="startDaysChecking()">Click me</button>
+                <button id="click-me-btn" class="btn btn-primary" onclick="startDaysChecking()">Click me</button>
             </div>
-            <div>
-                <button id="ResetBtn" class="btn btn-warning">Reset</button>
-            </div>
+            
             
         </div>
         <div class="date-pick hidden" id="date-div">
-            <input id="date-input"  type="date"/> <button id="confirm-date" class="btn btn-primary" onclick="checkDays()">OK</button>
+            <div>
+                <input id="date-input"  type="date"/> 
+                <button id="confirm-date" class="btn btn-primary" onclick="checkDays()">OK</button>
+                <button id="reset-btn" class="btn btn-warning" onclick="reset()">RESET</button>
+            </div>
         </div>
-        <div id="result-box" class="flex-box-container-1 hidden">
-
+        <div id="result-box" class="hidden">
+            <div class="result-p">You lived for:</div>
+            <div id="result-p" class="result-p"></div>
         </div>
    
 
